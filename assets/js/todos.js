@@ -14,7 +14,7 @@ $("input").keypress(function(event){
 	if(event.which === 13){
 		var todoText = $(this).val();
 		//create a new li, add to ul with todoText
-		$("ul").append("<li><span>X </span>"+todoText+"</li>");
+		$("ul").append("<li><span><i class='fas fa-trash'></i></span>"+todoText+"</li>");
 		//clear input field
 		$(this).val("");
 	}
