@@ -19,3 +19,7 @@ $("input").keypress(function(event){
 		$(this).val("");
 	}
 })
+//Input fade in/out
+$(".fa-plus").click(function(){
+	$("input").fadeToggle();
+})
